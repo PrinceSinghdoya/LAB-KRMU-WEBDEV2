@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smart Event Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1 id="mainHeading">🎯 Smart Event Dashboard</h1>
+    </header>
+
+    <main class="container">
+        <div class="top-sections">
+
+            <section class="addNewEvent">
+                <h2>Add New Event</h2>
+                <form id="eventForm">
+                    <label for="eventTitle">Event Title:</label><br>
+                    <input type="text" name="eventTitle" id="eventTitle" required><br><br>
+                    
+                    <label for="eventDate">Event Date:</label><br>
+                    <input type="date" name="eventDate" id="eventDate" required><br><br>
+                    
+                    <label for="category">Category:</label><br>
+                    <select id="category" name="category" required>
+                        <option value="conference">Conference</option>
+                        <option value="workshop">Workshop</option>
+                        <option value="meetup">Meetup</option>
+                        <option value="webinar">Webinar</option>
+                        <option value="social">Social</option>
+                    </select><br><br>
+                    
+                    <label for="description">Description:</label><br>
+                    <textarea name="description" id="description" required></textarea><br><br>
+                    
+                    <button type="submit" id="sumbitButton" class="myEventsBtn">Add Event</button>
+                </form>
+            </section>
+            
+            <section class="myEvents">
+                <h2>My Events</h2>
+                <button id="clearAll" class="myEventsBtn">Clear all Events</button>
+                <button id="sampleEvents" class="myEventsBtn">Add Sample Events</button>
+                
+                <div id="eventContainer" class="event-list">
+                    <p class="empty">No events yet. Add your first event!</p></div>
+                </section><br>
+            </div>
+                
+                <section class="manipulationDemo">
+            <h2>DOM Manipulation Demo</h2>
+            <div id="pressedBox">
+                <b>You Pressed:</b> <input id="pressedButton"></input>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+<script src="script.js"></script>
