@@ -1,0 +1,61 @@
+.StudentRow{
+    border-left: 3px solid chartreuse;
+}
+.StudentRow td{
+    padding: 10px 12px;
+    border-bottom: 1px solid #0d1829;
+    font-size: 13px;
+    vertical-align: middle;
+}
+.StudentRow_score-pass{
+    color: greenyellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+.StudentRow_score-fail{
+    color: red;
+    font-size: 15px;
+    font-weight: bold;
+}
+.studentRow_badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.studentRow_badge-pass{
+    color: chartreuse;
+    border: 1px solid green;
+}
+.studentRow_badge-fail{
+    color: crimson;
+    border: 1px solid red;
+}
+.studentRow_update{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.studentRow_input{
+    width: 62px;
+    background: #060c14;
+    border: none;
+    color: white;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+.studentRow_btn{
+    background: none;
+    border: none;
+    color: white;
+    font-family: "Share Tech Mono", monospace;
+    font-size: 11px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}

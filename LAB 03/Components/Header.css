@@ -1,0 +1,21 @@
+.termainalVersion{
+    font-size: 10px;
+    color: chartreuse;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+}
+.Title{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+.brightTitle{
+    color: chartreuse;
+    text-shadow: 0 0 12px rgb(51, 255, 0);
+}
+.headerhr{
+    border-color: chartreuse;
+    margin-bottom: 20px;
+}

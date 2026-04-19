@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.app {
+  min-width: 1000px;
+  margin: auto;
+}

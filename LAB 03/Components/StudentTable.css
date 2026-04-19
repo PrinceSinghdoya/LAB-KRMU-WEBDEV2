@@ -1,0 +1,28 @@
+.student-table{
+    border: none;
+    background: #0d1520;
+    border-radius: 4px;
+    padding: 14px 16px;
+}
+.studentTable_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.studentTable_Label{
+    font-size: 9px;
+    letter-spacing: 3px;
+    color: grey;
+}
+.studentTable_Table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.studentTable_Table th{
+    letter-spacing: 3px;
+    color: grey;
+    padding: 8px 12px;
+    text-align: center;
+    border-bottom: none;
+}
